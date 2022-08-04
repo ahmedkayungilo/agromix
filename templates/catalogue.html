@@ -1,0 +1,43 @@
+{%extends 'base.html'%}
+
+{% block content %}
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="{{url_for('static', filename='images/logo.jpg')}}" class="floating-logo">
+        <h2>HOw CAN WE SERVE YOU TODAY:</h2>
+        <button class="btn btn-lg">EGGS</button>
+        <button class="btn btn-lg">CHICKEN</button>
+    </div>
+    <div class="col-md-6">
+        <div class="green-div row">
+            <div class="col-6">
+                <img src="{{url_for('static', filename='images/chicken-fresh.jpg')}}" alt="">
+            </div>
+            <div class="col-6">
+                <h4>CONTRACT DELIVERY</h4>
+                <ul>
+                    <li>Guaranteed Supply</li>
+                    <li>Dressed</li>
+                    <li>Free Delievery</li>
+                    <li>Agreed Price</li>
+                    <li>Payement in Agreed period</li>
+                </ul>
+                
+            </div>
+            <center>
+                <button class="btn btn-lg order-btn">
+                    ORDER NOW
+                </button>
+            </center>
+            
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}
+

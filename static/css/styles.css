@@ -1,0 +1,83 @@
+@import url("fonts/stylesheet.css");
+
+.nav-link{
+  margin: 0rem 1rem;
+  font-size: 2rem;
+  color: #116539;
+  font-weight: bolder;
+  font-family: 'GlacialIndifferenceRegular'
+}
+.container-fluid{
+ padding: 0;
+}
+
+.contact-link{
+margin-bottom: 3rem;
+margin-left: 2rem;
+}
+
+.green-div{
+     padding: 5%;
+     background-color: #116539;
+     color: white;
+     font-family: 'Lovelo';
+     text-align: center;
+}
+
+
+img{
+  width: 100%;
+  padding: 10%;
+  padding-top: 0%;
+}
+
+h2{
+  font-family: 'Lovelo';
+  color: #116539;
+}
+
+i{
+  color: #116539;
+  font-size: 3rem;
+  margin:1rem;
+  margin-right: 3rem;
+}
+
+ul{
+  list-style-type: none;
+  font-family: 'GlacialIndifferenceRegular';
+}
+.contacts{
+    margin: 0% 0% 20%;
+}
+
+.btn{
+  background-color: white;
+  font-family: 'GlacialIndifferenceRegular';
+  color: #116539;
+  text-align: center;
+  font-size: 25px;
+}
+
+.btn .bi{
+  font-size: 25px;
+  margin-right:0em;
+}
+.carousel-item img{
+  width: 400px;
+  height: 600px;
+  margin: auto;
+}
+
+.floating-logo{
+  position: relative;
+  top:0;
+  left:0;
+  width: 30%;
+  padding: 0;
+}
+
+.order-btn{
+width:50%;
+
+}
